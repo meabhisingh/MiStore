@@ -1,0 +1,68 @@
+.nav{
+    z-index: 1000;
+    background-color: white;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+}
+
+
+.logo{
+    background-color: orangered;
+    width: 58px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    right: 2vmax;
+}
+
+#logoImage{
+    transition:all 0.2s;
+    
+    transform: translateX(-58px);
+}
+
+#logoImage:hover{
+  
+    transform: translateX(0);
+}
+
+.navlinks{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.1vmax;
+   
+}
+
+.navlinks:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.searchbox{
+    position: relative;
+   left:5vmax;
+}
+
+.searchbox >input{
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+    width: 15vmax;
+    font-size: 1.1vmax;
+    outline: none;
+    color:rgb(61, 61, 61);
+    font-weight: 100;
+    
+  }
+ 
+  
+  .searchbox > svg{
+    fill: rgb(61, 61, 61);
+}
